@@ -8,7 +8,7 @@ import Image from "next/image";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../components/ui/accordion";
 import { SignedOut } from "@clerk/nextjs";
 import { getFeaturedCars } from "../actions/home";
-
+export const dynamic = "force-dynamic";
 export default async function Home() {
 
   const featuredCars= await getFeaturedCars();
