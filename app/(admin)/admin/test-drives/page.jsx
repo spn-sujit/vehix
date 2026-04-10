@@ -1,6 +1,6 @@
 import React from 'react'
 import TestDriveList from './_components/test-drive-list';
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Test Drives | Vehix Admin",
   description: "Manage test drive bookings",

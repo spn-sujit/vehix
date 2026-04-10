@@ -1,6 +1,6 @@
 import React from 'react'
 import SettingsForm from './_components/settings-form';
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Settings | Vehix Admin",
   description: "Manage dealership working hours and admin users",
